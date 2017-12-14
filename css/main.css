@@ -101,3 +101,24 @@ body {
     width: 30%;
   }
 }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    margin: .5em;
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .card-body {
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+}
